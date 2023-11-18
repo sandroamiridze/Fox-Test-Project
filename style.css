@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    object-fit: cover;
+    background: white;
+}
+
+#canvas1 {
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 600px;
+}
+
+
+.controls {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.controls, select, option {
+    font-size: 25px;
+}
